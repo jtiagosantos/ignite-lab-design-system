@@ -1,7 +1,7 @@
 import { Slot } from '@radix-ui/react-slot';
 
 //types
-import { TextInputRootProps, TextInputFieldProps, TextInputIconProps } from './types'
+import type { TextInputRootProps, TextInputFieldProps, TextInputIconProps } from './types'
 
 function TextInputRoot({ children }: TextInputRootProps) {
   return (
